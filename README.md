@@ -1,3 +1,18 @@
+# @mizchi/json-schema-to-typescript
+
+Add new browser build
+
+```ts
+yarn add @mizchi/json-schema-to-typescript
+```
+
+```ts
+import {compile} from "@mizchi/@mizchi/json-schema-to-typescript";
+const ret = compile({/*jsonschema*/}});
+```
+
+---
+
 # json-schema-to-typescript [![Build Status][build]](https://github.com/bcherny/json-schema-to-typescript/actions?query=branch%3Amaster+workflow%3ACI) [![npm]](https://www.npmjs.com/package/json-schema-to-typescript) [![mit]](https://opensource.org/licenses/MIT)
 
 [build]: https://img.shields.io/github/workflow/status/bcherny/json-schema-to-typescript/CI/master?style=flat-square
