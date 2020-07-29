@@ -7,7 +7,7 @@ yarn add @mizchi/json-schema-to-typescript
 ```
 
 ```ts
-import {compile} from "@mizchi/@mizchi/json-schema-to-typescript";
+import {compile} from "@mizchi/@mizchi/json-schema-to-typescript/dist/browser-sync";
 const ret = compile({/*jsonschema*/}});
 ```
 
